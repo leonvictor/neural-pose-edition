@@ -1,0 +1,11 @@
+name: npe
+channels:
+  - defaults
+dependencies:
+  - python
+  - torchaudio
+  - cudatoolkit
+  - pytorch
+  - torchvision
+  - yaml
+  - pyyaml

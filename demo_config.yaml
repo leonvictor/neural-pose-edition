@@ -1,0 +1,6 @@
+ae_weights: ./weights/ae_64.pth
+constraints_weights:
+  # - ./weights/constraints_64_all.pth
+  - ./weights/constraints_64_head.pth
+  - ./weights/constraints_64_feet.pth
+  - ./weights/constraints_64_hands.pth

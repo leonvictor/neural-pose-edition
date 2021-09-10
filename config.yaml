@@ -1,0 +1,30 @@
+directory: ./data
+datasets:
+  - edin_misc
+  - cmu_1
+  - cmu_2
+  - cmu_3
+  - cmu_4
+  - edin_locomotion
+  - edin_punching
+  - emilya
+
+#### Training save paths
+ae_weights: ./weights/ae_64.pth
+constraints_weights: ./weights/constraints_64_head.pth
+
+targets:
+  # - left_fingers
+  # - right_fingers
+  - head
+  # - right_hankle
+  # - left_hankle
+
+# Hardware parameters
+use_cuda: True
+
+# Training parameters
+batch_size: 512
+latent_dim: 64
+share_weights: True
+limb_lengths: False
