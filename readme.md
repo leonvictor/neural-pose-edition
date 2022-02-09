@@ -8,6 +8,12 @@ A preprint of the paper can be found [here](https://hal.archives-ouvertes.fr/hal
 
 >Authoring an appealing animation for a virtual character is a challenging task. In computer-aided keyframe animation artists define the key poses of a character by manipulating its underlying skeletons. To look plausible, a character pose must respect many ill-defined constraints, and so the resulting realism greatly depends on the animator's skill and knowledge. Animation software provide tools to help in this matter, relying on various algorithms to automatically enforce some of these constraints. The increasing availability of motion capture data has raised interest in data-driven approaches to pose design, with the potential of shifting more of the task of assessing realism from the artist to the computer, and to provide easier access to nonexperts. In this article, we propose such a method, relying on neural networks to automatically learn the constraints from the data. We describe an efficient tool for pose design, allowing naïve users to intuitively manipulate a pose to create character animations. 
 
+
+<p align="center">
+ <img src=images/npe_single_solver.gif width="30%" padding-right="100px"><img src=images/npe_multiple_solver.gif width= "30%">
+ <p align="center"><i>Single and multiple-solvers skeleton manipulation</i></p>
+</p>
+
 ## Set up
 We provide a conda environment file. Set up your environment with:
 
